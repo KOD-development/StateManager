@@ -9,7 +9,7 @@ namespace kod {
 
 class IState
 {
-public:
+public: 
 	IState() = default;
 	virtual ~IState() = default;
 	virtual void draw() = 0;
