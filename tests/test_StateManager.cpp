@@ -8,8 +8,8 @@ namespace kod {
 	class MockState : public IState {
 	public:
 		void draw() override {}
-		void update(const size_t dt) override {}
-		void input(const std::optional<sf::Event>& event) override {}
+		void update([[maybe_unused]] const size_t dt) override {}
+		void input([[maybe_unused]] const std::optional<sf::Event>& event) override {}
 		void input() override {}
 	};
 
